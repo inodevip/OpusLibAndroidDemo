@@ -1,0 +1,2 @@
+# OpusLibAndroidDemo
+在Android中使用Opus源码编译的so库，并验证编解码过程，Demo使用Kotlin实现
