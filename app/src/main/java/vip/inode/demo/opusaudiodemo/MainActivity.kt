@@ -9,11 +9,11 @@ import android.content.pm.PackageManager
 import android.media.AudioManager
 import android.os.Bundle
 import android.os.Environment
-import androidx.appcompat.app.AppCompatActivity
 import android.util.Log
 import android.view.View
 import android.widget.Button
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import vip.inode.demo.opusaudiodemo.utils.OpusPlayTask
 import vip.inode.demo.opusaudiodemo.utils.OpusRecorderTask
 import java.io.File
@@ -169,6 +169,7 @@ class MainActivity : AppCompatActivity(), View.OnClickListener, OpusPlayTask.OnO
             playPcmBtn.setText(R.string.play_pcm)
             playPcmBtn.isEnabled = true
             playBtn.isEnabled = true
+            recorderBtn.isEnabled = true
         }
         if (opusPlayTask != null) {
             opusPlayTask = null
