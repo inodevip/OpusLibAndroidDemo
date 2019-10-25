@@ -26,6 +26,9 @@ hs_err_pid*
 .gradle/
 .externalNativeBuild/
 build/
+.cxx/
 
 # idea files
 .idea/
+*.iml
+local.properties

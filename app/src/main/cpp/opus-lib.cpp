@@ -5,8 +5,6 @@
 #include <jni.h>
 #include "opus/include/opus.h"
 
-#ifndef _Included_com_aliyun_nls_transcription_opu_OpuCodec
-#define _Included_com_aliyun_nls_transcription_opu_OpuCodec
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -88,5 +86,4 @@ JNIEXPORT void JNICALL Java_vip_inode_demo_opusaudiodemo_utils_OpusUtils_destroy
 }
 #ifdef __cplusplus
 }
-#endif
 #endif
